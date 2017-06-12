@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "\u80cc\u666f\u63cf\u8ff0\n\n\n\u6574\u6570\u89c4\u5212\n\n\n\u7406\u8bba\u63a8\u5bfc\n\n\n\n\n\ny = \\hat f(x)\n\n\n\n\n\n\u4ee3\u7801\u5b9e\u73b0\n\n\n\u5c42\u6b21\u5206\u6790\n\n\n\u7406\u8bba\u77e5\u8bc6\n\n\n\n\n\na = \\frac{b}c\n\n\n\n\n\n\u4ee3\u7801\u5b9e\u73b0\n\n\n# include \niostream\n\n\nusing\n \nnamespace\n \nstd\n;\n\n\nint\n \nmain\n()\n\n\n{\n\n    \ncout\n \n \nCome on!!!\n \n \nendl\n;\n\n\n}\n\n\n\n\n\n\n\u6848\u4f8b\u5206\u6790", 
+            "text": "\u80cc\u666f\u63cf\u8ff0\n\n\n\u6574\u6570\u89c4\u5212\n\n\n\u7406\u8bba\u63a8\u5bfc\n\n\n$$\ny = \\hat f(x)\n$$\n\n\n\u4ee3\u7801\u5b9e\u73b0\n\n\n\u5c42\u6b21\u5206\u6790\n\n\n\u7406\u8bba\u77e5\u8bc6\n\n\n$$\na = \\frac{b}c\n$$\n\n\n\u4ee3\u7801\u5b9e\u73b0\n\n\n# include \niostream\n\n\nusing\n \nnamespace\n \nstd\n;\n\n\nint\n \nmain\n()\n\n\n{\n\n    \ncout\n \n \nCome on!!!\n \n \nendl\n;\n\n\n}\n\n\n\n\n\n\n\u6848\u4f8b\u5206\u6790", 
             "title": "Home"
         }, 
         {
@@ -17,7 +17,7 @@
         }, 
         {
             "location": "/#_3", 
-            "text": "y = \\hat f(x)", 
+            "text": "$$\ny = \\hat f(x)\n$$", 
             "title": "\u7406\u8bba\u63a8\u5bfc"
         }, 
         {
@@ -32,7 +32,7 @@
         }, 
         {
             "location": "/#_6", 
-            "text": "a = \\frac{b}c", 
+            "text": "$$\na = \\frac{b}c\n$$", 
             "title": "\u7406\u8bba\u77e5\u8bc6"
         }, 
         {
