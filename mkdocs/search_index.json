@@ -44,6 +44,16 @@
             "location": "/#_8", 
             "text": "", 
             "title": "\u6848\u4f8b\u5206\u6790"
+        }, 
+        {
+            "location": "/Integer/", 
+            "text": "", 
+            "title": "Integer"
+        }, 
+        {
+            "location": "/AHP/", 
+            "text": "", 
+            "title": "AHP"
         }
     ]
 }
