@@ -2,3 +2,37 @@
 
 ## 目标函数
 
+$$
+max\; z=\frac 16\alpha+ \frac 36\beta + \frac 26 R
+$$
+
+## 约束条件
+
+### 容积率约束
+$$
+frac{\sum_{i=1}^{8}S_{i}\times x_{i}}{102077.6}\leq 2.28
+$$
+
+### 建房套数约束
+$$
+frac{\sum_{i=1}^{8}S_{i}\times x_{i}}{102077.6}\leq 2.28
+$$
+
+其中，$x_i $为非负整数。
+
+### 售价约束
+$$
+11633\leq y1\leq 12375\\\
+10577\leq y2\leq 10998\\\
+11086\leq y3\leq 11646\\\
+y_i = q_i, \quad i = 4,5,6,\ldots, 11
+$$
+
+
+### 平均满意度约束
+
+$$
+z_i = \frac{\sum\limits_{i=1}^{11}r_ix_i}{\sum\limits_{i=1}^{11}x_i}\ge 0.706
+$$
+
+

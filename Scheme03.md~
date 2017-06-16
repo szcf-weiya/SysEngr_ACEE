@@ -31,7 +31,5 @@ $$
 z_i = \frac{\sum\limits_{i=1}^{11}r_ix_i}{\sum\limits_{i=1}^{11}x_i}\ge 0.706
 $$
 
-### 整数约束
-建房套数为整数
 
 [demo](http://112.74.43.59:8787/s/d5de83b77a9e42ca68ecf/p/7351/)
