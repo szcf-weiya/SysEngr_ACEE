@@ -4,8 +4,8 @@
 $$
 \begin{array}{ll}
 \text{max}\;&z=\frac{\sum_{i=1}^{11}r_{i}x_{i}}{\sum_{i=1}^{11}x_{i}}\\\
-s.t.& \frac{\sum_{i=1}^{8}S_{i}\times x_{i}}{102077.6}\leq 2.28\\
-	&	x_{i}min\leq x_{i}\leq x_{i}max\quad i=1,2,\ldots ,11\\
+s.t.& \frac{\sum_{i=1}^{8}S_{i}\times x_{i}}{102077.6}\leq 2.28\\\
+	&	x_{i}min\leq x_{i}\leq x_{i}max\quad i=1,2,\ldots ,11\\\
 	& x_i\in\{1,2,3,\dots\}
 \end{array}
 $$
