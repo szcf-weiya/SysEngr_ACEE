@@ -39,6 +39,8 @@ $$
 $$
 x_{i}min\leq x_{i}\leq x_{i}max\quad i=1,2,\ldots ,11
 $$
+
+其中$x_i$为整数。
 #### 售价约束
 $$
 11633\leq y1\leq 12375\\\
