@@ -97,7 +97,7 @@
         }, 
         {
             "location": "/Scheme02/", 
-            "text": "\u65b9\u6848\u4e8c\n\n\n\u4ee5\u5404\u623f\u578b\u7684\u6700\u5927\u5e73\u5747\u6ee1\u610f\u5ea6$z$\u4e3a\u76ee\u6807\u51fd\u6570\uff0c\u4ee5\u623f\u578b$i$\u7684\u5efa\u623f\u5957\u6570$x_i, i=1,2,\\cdots, 11$\u4e3a\u51b3\u7b56\u53d8\u91cf\uff0c\u5efa\u7acb\u4f18\u5316\u6a21\u578b\u3002\n$$\n\\begin{array}{ll}\\\n\n\n\u6a21\u578b\u5efa\u7acb\n\n\n\u76ee\u6807\u51fd\u6570\n\n\n$$\n\\text{max}\\;\nz=\\frac{\\sum_{i=1}^{11}r_{i}x_{i}}{\\sum_{i=1}^{11}x_{i}}\n$$\n\n\n\u7ea6\u675f\u6761\u4ef6\n\n\n\u5bb9\u79ef\u7387\u7ea6\u675f\n\n\n$$\n\\frac{\\sum_{i=1}^{8}S_{i}\\times x_{i}}{102077.6}\\leq 2.28\n$$\n\n\n\u5efa\u623f\u5957\u6570\u7ea6\u675f\n\n\n$$\nx_{i}min\\leq x_{i}\\leq x_{i}max\\quad i=1,2,\\ldots ,11\n$$\n\n\n\u5176\u4e2d\uff0c$x_i$\u4e3a\u6574\u6570\u3002\n\n\n\u6a21\u578b\u6c42\u89e3\n\n\nmodel:\n!\u76ee\u6807\u51fd\u6570\u51c0\u6536\u76ca;\nmax = 7737*x1+6477*x2+6668*x3+7512*x4+7532*x5+8067*x6+8315*x7+6077*x8+3737*x9+4009*x10+4218*x11;\n!\u5957\u6570\u7ea6\u675f\u6761\u4ef6;\n50\n=x1;x1\n=450;\n50\n=x2;x2\n=500;\n50\n=x3;x3\n=300;\n150\n=x4;x4\n=500;\n100\n=x5;x5\n=550;\n150\n=x6;x6\n=350;\n50\n=x7;x7\n=450;\n100\n=x8;x8\n=250;\n50\n=x9;x9\n=350;\n50\n=x10;x10\n=400;\n50\n=x11;x11\n=250;\n!\u5bb9\u79ef\u7387\u7ea6\u675f\u6761\u4ef6;\n(x1*77+x2*98+x3*117+x4*145+x5*156+x6*167+x7*178+x8*126)/102077.6\n=2.28;\n!\u6ee1\u610f\u5ea6\u7ea6\u675f\u6761\u4ef6;\n(0.4*x1+0.6*x2+0.5*x3+0.6*x4+0.7*x5+0.8*x6+0.9*x7+0.6*x8+0.2*x9+0.3*x10+0.4*x11)/(x1+x2+x3+x4+x5+x6+x7+x8+x9+x10+x11)\n=0.706;\n!\u6574\u6570\u89c4\u5212;\n@gin(x1);\n@gin(x2);\n@gin(x3);\n@gin(x4);\n@gin(x5);\n@gin(x6);\n@gin(x7);\n@gin(x8);\n@gin(x9);\n@gin(x10);\n@gin(x11);\nend", 
+            "text": "\u65b9\u6848\u4e8c\n\n\n\u4ee5\u5404\u623f\u578b\u7684\u6700\u5927\u5e73\u5747\u6ee1\u610f\u5ea6$z$\u4e3a\u76ee\u6807\u51fd\u6570\uff0c\u4ee5\u623f\u578b$i$\u7684\u5efa\u623f\u5957\u6570$x_i, i=1,2,\\cdots, 11$\u4e3a\u51b3\u7b56\u53d8\u91cf\uff0c\u5efa\u7acb\u4f18\u5316\u6a21\u578b\u3002\n$$\n\\begin{array}{ll}\\\n\n\n\u6a21\u578b\u5efa\u7acb\n\n\n\u76ee\u6807\u51fd\u6570\n\n\n$$\n\\text{max}\\;z=\\frac{\\sum_{i=1}^{11}r_{i}x_{i}}{\\sum_{i=1}^{11}x_{i}}\n$$\n\n\n\u7ea6\u675f\u6761\u4ef6\n\n\n\u5bb9\u79ef\u7387\u7ea6\u675f\n\n\n$$\n\\frac{\\sum_{i=1}^{8}S_{i}\\times x_{i}}{102077.6}\\leq 2.28\n$$\n\n\n\u5efa\u623f\u5957\u6570\u7ea6\u675f\n\n\n$$\nx_{i}min\\leq x_{i}\\leq x_{i}max\\quad i=1,2,\\ldots ,11\n$$\n\n\n\u5176\u4e2d\uff0c$x_i$\u4e3a\u6574\u6570\u3002\n\n\n\u6a21\u578b\u6c42\u89e3\n\n\nLingo\u4ee3\u7801\u5982\u4e0b\uff1a\n\n\nmodel:\n!\u76ee\u6807\u51fd\u6570\u51c0\u6536\u76ca;\nmax = 7737*x1+6477*x2+6668*x3+7512*x4+7532*x5+8067*x6+8315*x7+6077*x8+3737*x9+4009*x10+4218*x11;\n!\u5957\u6570\u7ea6\u675f\u6761\u4ef6;\n50\n=x1;x1\n=450;\n50\n=x2;x2\n=500;\n50\n=x3;x3\n=300;\n150\n=x4;x4\n=500;\n100\n=x5;x5\n=550;\n150\n=x6;x6\n=350;\n50\n=x7;x7\n=450;\n100\n=x8;x8\n=250;\n50\n=x9;x9\n=350;\n50\n=x10;x10\n=400;\n50\n=x11;x11\n=250;\n!\u5bb9\u79ef\u7387\u7ea6\u675f\u6761\u4ef6;\n(x1*77+x2*98+x3*117+x4*145+x5*156+x6*167+x7*178+x8*126)/102077.6\n=2.28;\n!\u6ee1\u610f\u5ea6\u7ea6\u675f\u6761\u4ef6;\n(0.4*x1+0.6*x2+0.5*x3+0.6*x4+0.7*x5+0.8*x6+0.9*x7+0.6*x8+0.2*x9+0.3*x10+0.4*x11)/(x1+x2+x3+x4+x5+x6+x7+x8+x9+x10+x11)\n=0.706;\n!\u6574\u6570\u89c4\u5212;\n@gin(x1);\n@gin(x2);\n@gin(x3);\n@gin(x4);\n@gin(x5);\n@gin(x6);\n@gin(x7);\n@gin(x8);\n@gin(x9);\n@gin(x10);\n@gin(x11);\nend\n\n\n\n\n\n\u6a21\u578b\u8bc4\u4f30\n\n\n\u65b9\u6848\u6838\u7b97\n\n\n[demo]\n\n\n\u65b9\u6848\u6bd4\u8f83\n\n\n\n\n\n\n\n\n\u89c4\u5212\u65b9\u6848\n\n\n\u5efa\u623f\u603b\u5957\u6570\n\n\n\u603b\u5efa\u7b51\u9762\u79ef\n\n\n\u5bb9\u79ef\u7387\n\n\n\u603b\u6536\u76ca\n\n\n\u524d\u671f\u6210\u672c\n\n\n\n\n\n\n\n\n\n\n\u65b9\u6848I\n\n\n2100\n\n\n277025\n\n\n2.275229825\n\n\n3246720000\n\n\n2300720000\n\n\n\n\n\n\n\u65b9\u6848II\n\n\n1450\n\n\n221350\n\n\n1.989662766\n\n\n2814780000\n\n\n2115610000\n\n\n\n\n\n\n\u89c4\u5212\u65b9\u6848\n\n\n\u589e\u503c\u7a0e\n\n\n\u51c0\u5229\u6da6\n\n\n\u56de\u62a5\u7387%\n\n\n\u6ee1\u610f\u5ea6\n\n\n\n\n\n\n\n\n------\n\n\n-----\n\n\n-----\n\n\n----\n\n\n----\n\n\n\n\n\n\n\n\n\u65b9\u6848I\n\n\n184782000\n\n\n577780000\n\n\n25.11\n\n\n0.5833333\n\n\n\n\n\n\n\n\n\u65b9\u6848II\n\n\n97013000\n\n\n443130000\n\n\n20.95\n\n\n0.7068966", 
             "title": "\u65b9\u6848\u4e8c"
         }, 
         {
@@ -112,7 +112,7 @@
         }, 
         {
             "location": "/Scheme02/#_3", 
-            "text": "$$\n\\text{max}\\; z=\\frac{\\sum_{i=1}^{11}r_{i}x_{i}}{\\sum_{i=1}^{11}x_{i}}\n$$", 
+            "text": "$$\n\\text{max}\\;z=\\frac{\\sum_{i=1}^{11}r_{i}x_{i}}{\\sum_{i=1}^{11}x_{i}}\n$$", 
             "title": "\u76ee\u6807\u51fd\u6570"
         }, 
         {
@@ -132,8 +132,23 @@
         }, 
         {
             "location": "/Scheme02/#_7", 
-            "text": "model:\n!\u76ee\u6807\u51fd\u6570\u51c0\u6536\u76ca;\nmax = 7737*x1+6477*x2+6668*x3+7512*x4+7532*x5+8067*x6+8315*x7+6077*x8+3737*x9+4009*x10+4218*x11;\n!\u5957\u6570\u7ea6\u675f\u6761\u4ef6;\n50 =x1;x1 =450;\n50 =x2;x2 =500;\n50 =x3;x3 =300;\n150 =x4;x4 =500;\n100 =x5;x5 =550;\n150 =x6;x6 =350;\n50 =x7;x7 =450;\n100 =x8;x8 =250;\n50 =x9;x9 =350;\n50 =x10;x10 =400;\n50 =x11;x11 =250;\n!\u5bb9\u79ef\u7387\u7ea6\u675f\u6761\u4ef6;\n(x1*77+x2*98+x3*117+x4*145+x5*156+x6*167+x7*178+x8*126)/102077.6 =2.28;\n!\u6ee1\u610f\u5ea6\u7ea6\u675f\u6761\u4ef6;\n(0.4*x1+0.6*x2+0.5*x3+0.6*x4+0.7*x5+0.8*x6+0.9*x7+0.6*x8+0.2*x9+0.3*x10+0.4*x11)/(x1+x2+x3+x4+x5+x6+x7+x8+x9+x10+x11) =0.706;\n!\u6574\u6570\u89c4\u5212;\n@gin(x1);\n@gin(x2);\n@gin(x3);\n@gin(x4);\n@gin(x5);\n@gin(x6);\n@gin(x7);\n@gin(x8);\n@gin(x9);\n@gin(x10);\n@gin(x11);\nend", 
+            "text": "Lingo\u4ee3\u7801\u5982\u4e0b\uff1a  model:\n!\u76ee\u6807\u51fd\u6570\u51c0\u6536\u76ca;\nmax = 7737*x1+6477*x2+6668*x3+7512*x4+7532*x5+8067*x6+8315*x7+6077*x8+3737*x9+4009*x10+4218*x11;\n!\u5957\u6570\u7ea6\u675f\u6761\u4ef6;\n50 =x1;x1 =450;\n50 =x2;x2 =500;\n50 =x3;x3 =300;\n150 =x4;x4 =500;\n100 =x5;x5 =550;\n150 =x6;x6 =350;\n50 =x7;x7 =450;\n100 =x8;x8 =250;\n50 =x9;x9 =350;\n50 =x10;x10 =400;\n50 =x11;x11 =250;\n!\u5bb9\u79ef\u7387\u7ea6\u675f\u6761\u4ef6;\n(x1*77+x2*98+x3*117+x4*145+x5*156+x6*167+x7*178+x8*126)/102077.6 =2.28;\n!\u6ee1\u610f\u5ea6\u7ea6\u675f\u6761\u4ef6;\n(0.4*x1+0.6*x2+0.5*x3+0.6*x4+0.7*x5+0.8*x6+0.9*x7+0.6*x8+0.2*x9+0.3*x10+0.4*x11)/(x1+x2+x3+x4+x5+x6+x7+x8+x9+x10+x11) =0.706;\n!\u6574\u6570\u89c4\u5212;\n@gin(x1);\n@gin(x2);\n@gin(x3);\n@gin(x4);\n@gin(x5);\n@gin(x6);\n@gin(x7);\n@gin(x8);\n@gin(x9);\n@gin(x10);\n@gin(x11);\nend", 
             "title": "\u6a21\u578b\u6c42\u89e3"
+        }, 
+        {
+            "location": "/Scheme02/#_8", 
+            "text": "", 
+            "title": "\u6a21\u578b\u8bc4\u4f30"
+        }, 
+        {
+            "location": "/Scheme02/#_9", 
+            "text": "[demo]", 
+            "title": "\u65b9\u6848\u6838\u7b97"
+        }, 
+        {
+            "location": "/Scheme02/#_10", 
+            "text": "\u89c4\u5212\u65b9\u6848  \u5efa\u623f\u603b\u5957\u6570  \u603b\u5efa\u7b51\u9762\u79ef  \u5bb9\u79ef\u7387  \u603b\u6536\u76ca  \u524d\u671f\u6210\u672c      \u65b9\u6848I  2100  277025  2.275229825  3246720000  2300720000    \u65b9\u6848II  1450  221350  1.989662766  2814780000  2115610000    \u89c4\u5212\u65b9\u6848  \u589e\u503c\u7a0e  \u51c0\u5229\u6da6  \u56de\u62a5\u7387%  \u6ee1\u610f\u5ea6     ------  -----  -----  ----  ----     \u65b9\u6848I  184782000  577780000  25.11  0.5833333     \u65b9\u6848II  97013000  443130000  20.95  0.7068966", 
+            "title": "\u65b9\u6848\u6bd4\u8f83"
         }, 
         {
             "location": "/Scheme03/", 

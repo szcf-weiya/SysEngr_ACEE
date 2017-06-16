@@ -310,6 +310,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_8" title="模型评估" class="md-nav__link">
+    模型评估
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" title="方案核算" class="md-nav__link">
+    方案核算
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" title="方案比较" class="md-nav__link">
+    方案比较
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -418,6 +445,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_8" title="模型评估" class="md-nav__link">
+    模型评估
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" title="方案核算" class="md-nav__link">
+    方案核算
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" title="方案比较" class="md-nav__link">
+    方案比较
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -438,7 +492,7 @@ $$
 <h2 id="_2">模型建立</h2>
 <h3 id="_3">目标函数</h3>
 <p>$$
-\text{max}\;&amp;z=\frac{\sum_{i=1}^{11}r_{i}x_{i}}{\sum_{i=1}^{11}x_{i}}
+\text{max}\;z=\frac{\sum_{i=1}^{11}r_{i}x_{i}}{\sum_{i=1}^{11}x_{i}}
 $$</p>
 <h3 id="_4">约束条件</h3>
 <h4 id="_5">容积率约束</h4>
@@ -451,6 +505,7 @@ x_{i}min\leq x_{i}\leq x_{i}max\quad i=1,2,\ldots ,11
 $$</p>
 <p>其中，$x_i$为整数。</p>
 <h2 id="_7">模型求解</h2>
+<p>Lingo代码如下：</p>
 <div class="codehilite"><pre><span></span>model:
 !目标函数净收益;
 max = 7737*x1+6477*x2+6668*x3+7512*x4+7532*x5+8067*x6+8315*x7+6077*x8+3737*x9+4009*x10+4218*x11;
@@ -484,6 +539,74 @@ max = 7737*x1+6477*x2+6668*x3+7512*x4+7532*x5+8067*x6+8315*x7+6077*x8+3737*x9+40
 @gin(x11);
 end
 </pre></div>
+
+
+<h2 id="_8">模型评估</h2>
+<h3 id="_9">方案核算</h3>
+<p>[demo]</p>
+<h3 id="_10">方案比较</h3>
+<table>
+<thead>
+<tr>
+<th>规划方案</th>
+<th>建房总套数</th>
+<th>总建筑面积</th>
+<th>容积率</th>
+<th>总收益</th>
+<th>前期成本</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>方案I</td>
+<td>2100</td>
+<td>277025</td>
+<td>2.275229825</td>
+<td>3246720000</td>
+<td>2300720000</td>
+</tr>
+<tr>
+<td>方案II</td>
+<td>1450</td>
+<td>221350</td>
+<td>1.989662766</td>
+<td>2814780000</td>
+<td>2115610000</td>
+</tr>
+<tr>
+<td>规划方案</td>
+<td>增值税</td>
+<td>净利润</td>
+<td>回报率%</td>
+<td>满意度</td>
+<td></td>
+</tr>
+<tr>
+<td>------</td>
+<td>-----</td>
+<td>-----</td>
+<td>----</td>
+<td>----</td>
+<td></td>
+</tr>
+<tr>
+<td>方案I</td>
+<td>184782000</td>
+<td>577780000</td>
+<td>25.11</td>
+<td>0.5833333</td>
+<td></td>
+</tr>
+<tr>
+<td>方案II</td>
+<td>97013000</td>
+<td>443130000</td>
+<td>20.95</td>
+<td>0.7068966</td>
+<td></td>
+</tr>
+</tbody>
+</table>
               
             </article>
           </div>
