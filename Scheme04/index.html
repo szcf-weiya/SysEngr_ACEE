@@ -260,9 +260,75 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        方案四
+      </label>
+    
     <a href="./" title="方案四" class="md-nav__link md-nav__link--active">
       方案四
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="目标函数" class="md-nav__link">
+    目标函数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="约束条件" class="md-nav__link">
+    约束条件
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" title="容积率约束" class="md-nav__link">
+    容积率约束
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" title="建房套数约束" class="md-nav__link">
+    建房套数约束
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="售价约束" class="md-nav__link">
+    售价约束
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="平均满意度约束" class="md-nav__link">
+    平均满意度约束
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -289,6 +355,59 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="目标函数" class="md-nav__link">
+    目标函数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="约束条件" class="md-nav__link">
+    约束条件
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" title="容积率约束" class="md-nav__link">
+    容积率约束
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" title="建房套数约束" class="md-nav__link">
+    建房套数约束
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="售价约束" class="md-nav__link">
+    售价约束
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="平均满意度约束" class="md-nav__link">
+    平均满意度约束
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -301,6 +420,31 @@
               
                 
                 <h1 id="_1">方案四</h1>
+<h2 id="_2">目标函数</h2>
+<p>$$
+max\; z=\frac 16\alpha+ \frac 36\beta + \frac 26 R
+$$</p>
+<h2 id="_3">约束条件</h2>
+<h3 id="_4">容积率约束</h3>
+<p>$$
+frac{\sum_{i=1}^{8}S_{i}\times x_{i}}{102077.6}\leq 2.28
+$$</p>
+<h3 id="_5">建房套数约束</h3>
+<p>$$
+frac{\sum_{i=1}^{8}S_{i}\times x_{i}}{102077.6}\leq 2.28
+$$</p>
+<p>其中，$x_i $为非负整数。</p>
+<h3 id="_6">售价约束</h3>
+<p>$$
+11633\leq y1\leq 12375\\
+10577\leq y2\leq 10998\\
+11086\leq y3\leq 11646\\
+y_i = q_i, \quad i = 4,5,6,\ldots, 11
+$$</p>
+<h3 id="_7">平均满意度约束</h3>
+<p>$$
+z_i = \frac{\sum\limits_{i=1}^{11}r_ix_i}{\sum\limits_{i=1}^{11}x_i}\ge 0.706
+$$</p>
               
             </article>
           </div>
