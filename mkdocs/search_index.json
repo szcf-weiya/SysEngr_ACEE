@@ -97,12 +97,12 @@
         }, 
         {
             "location": "/Scheme02/", 
-            "text": "\u65b9\u6848\u4e8c", 
+            "text": "\u65b9\u6848\u4e8c\n\n\n\u4ee5\u5404\u623f\u578b\u7684\u6700\u5927\u5e73\u5747\u6ee1\u610f\u5ea6$z$\u4e3a\u76ee\u6807\u51fd\u6570\uff0c\u4ee5\u623f\u578b$i$\u7684\u5efa\u623f\u5957\u6570$x_i, i=1,2,\\cdots, 11$\u4e3a\u51b3\u7b56\u53d8\u91cf\uff0c\u5efa\u7acb\u4f18\u5316\u6a21\u578b\u3002\n$$\n\\begin{array}{ll}\n\\text{max}\\;\nz=\\frac{\\sum_{i=1}^{11}r_{i}x_{i}}{\\sum_{i=1}^{11}x_{i}}\\\ns.t.\n \\frac{\\sum_{i=1}^{8}S_{i}\\times x_{i}}{102077.6}\\leq 2.28\\\n    \n   x_{i}min\\leq x_{i}\\leq x_{i}max\\quad i=1,2,\\ldots ,11\\\n    \n x_i\\in{1,2,3,\\dots}\n$$", 
             "title": "\u65b9\u6848\u4e8c"
         }, 
         {
             "location": "/Scheme02/#_1", 
-            "text": "", 
+            "text": "\u4ee5\u5404\u623f\u578b\u7684\u6700\u5927\u5e73\u5747\u6ee1\u610f\u5ea6$z$\u4e3a\u76ee\u6807\u51fd\u6570\uff0c\u4ee5\u623f\u578b$i$\u7684\u5efa\u623f\u5957\u6570$x_i, i=1,2,\\cdots, 11$\u4e3a\u51b3\u7b56\u53d8\u91cf\uff0c\u5efa\u7acb\u4f18\u5316\u6a21\u578b\u3002\n$$\n\\begin{array}{ll}\n\\text{max}\\; z=\\frac{\\sum_{i=1}^{11}r_{i}x_{i}}{\\sum_{i=1}^{11}x_{i}}\\\ns.t.  \\frac{\\sum_{i=1}^{8}S_{i}\\times x_{i}}{102077.6}\\leq 2.28\\\n        x_{i}min\\leq x_{i}\\leq x_{i}max\\quad i=1,2,\\ldots ,11\\\n      x_i\\in{1,2,3,\\dots}\n$$", 
             "title": "\u65b9\u6848\u4e8c"
         }, 
         {
