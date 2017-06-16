@@ -12,12 +12,12 @@ $$
 
 ### 容积率约束
 $$
-frac{\sum_{i=1}^{8}S_{i}\times x_{i}}{102077.6}\leq 2.28
+\frac{\sum_{i=1}^{8}S_{i}\times x_{i}}{102077.6}\leq 2.28
 $$
 
 ### 建房套数约束
 $$
-x_{i}min\leq x_{i}\leq x_{i}max\quad i=1,2,\ldots ,11
+\x_{i}min\leq x_{i}\leq x_{i}max\quad i=1,2,\ldots ,11
 $$
 ### 售价约束
 $$
