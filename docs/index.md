@@ -1,4 +1,14 @@
-# TODO
+# 众筹筑屋规划方案设计
 
-ISLR: [An Introduction to Statistical Learning with Applications in R](ISLR Sixth Printing.pdf)
+![](house.jpg)
 
+## 组员信息
+
+| 姓名| 专业|
+|--|--|
+  |王恒立  |    机械电子工程     |
+  |黄  达 |    机械电子工程     |
+ | 林鹏翔 |    机械电子工程     |
+ |杨嘉恒|     机械电子工程     |
+ |      汪利军  |      统计学        |
+|       彭思达 |      信息工程   |

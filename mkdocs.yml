@@ -1,20 +1,30 @@
 pages:
-  - Home: 'index.md'
+  - 主页: 'index.md'
+  - 背景: "Background.md"
+#  - 假设: "Assumption.md"
+  - 核算: 'caculate.md'
+  - 方案:
+    - 方案一: "Scheme01.md"
+    - 方案二: "Scheme02.md"
+    - 方案三: "Scheme03.md"
+    - 方案四: "Scheme04.md"
+  - 总结: 'Conclusion.md'
+    
+    
 
-site_name: 'ISLRnotes'
-
+site_name: 'SysEngr_ACEE'
 #site_description: 'The Elements of Statistical Learning(ESL) 的中文翻译'
 
-site_url: https://szcf-weiya.github.io/cn
-repo_url: https://szcf-weiya.github.io/cn
+#site_url: https://szcf-weiya.github.io/cn
+#repo_url: https://szcf-weiya.github.io/cn
 
 # copyright
-copyright: 'Copyright &copy; 2016 weiya'
+copyright: 'Copyright &copy; 2017 SysEngr_ACEE'
 
 
-#extra_javascript:
-#  - js/MathJax/MathJax.js?config=TeX-AMS_CHTML
-#  - js/mymathjax.js
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - js/mymathjax.js
 
 #extra_css:
 #  - css/newsprint.css
@@ -22,7 +32,7 @@ copyright: 'Copyright &copy; 2016 weiya'
 
 docs_dir: 'docs'
 
-theme: 'material'
+theme_dir: 'material'
 
 extra:
   social:
@@ -41,5 +51,5 @@ markdown_extensions:
   - smarty
   - sane_lists
   - meta
-  - mdx_math
+#  - mdx_math
 
