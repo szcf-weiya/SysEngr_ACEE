@@ -66,13 +66,6 @@ $$
 y_i = q_i, \quad i = 4,5,6,\ldots, 11
 $$
 
-
-#### 平均满意度约束
-
-$$
-z_i = \frac{\sum\limits_{i=1}^{11}r_ix_i}{\sum\limits_{i=1}^{11}x_i}\ge 0.706
-$$
-
 ## 模型求解
 
 

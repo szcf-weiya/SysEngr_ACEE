@@ -1,8 +1,8 @@
 pages:
   - 主页: 'index.md'
   - 背景: "Background.md"
-#  - 假设: "Assumption.md"
   - 核算: 'caculate.md'
+  - 假设: "Assumption.md"
   - 方案:
     - 方案一: "Scheme01.md"
     - 方案二: "Scheme02.md"
